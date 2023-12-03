@@ -1,4 +1,5 @@
-import { Container } from "react-bootstrap"
+import Container from 'react-bootstrap/Container';
+import Formulario from "./components/Formulario"
 
 function App() {
 
@@ -8,8 +9,8 @@ function App() {
         <h1>Buscador de Bebidas</h1>
       </header>
 
-      <Container>
-        
+      <Container className='mt-5'>
+        <Formulario />
       </Container>
     </>
   )
