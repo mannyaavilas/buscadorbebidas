@@ -25,7 +25,7 @@ function Formulario() {
     <Form
       onSubmit={handleSubmit} 
     >
-      {alerta && <Alert variant="danger" className="text center">{alerta}</Alert>}
+      {alerta && <Alert variant="danger" className="text-center">{alerta}</Alert>}
       <Row>
         <Col md={6}>
             <Form.Group className="mb-3">
